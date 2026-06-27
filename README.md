@@ -34,6 +34,8 @@ CODSOFT/
 
 ## Author
 ##Demo:https://portfolio1-lemon-alpha.vercel.app/
+##demo cal:https://calculator-alpha-gold-95.vercel.app/
+
 
 **Ishan Bhasme**
 
