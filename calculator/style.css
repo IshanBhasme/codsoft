@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.calculator{
+    width:360px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+#display{
+    width:100%;
+    height:80px;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    margin-bottom:20px;
+    padding:20px;
+    text-align:right;
+    font-size:35px;
+    background:#0f172a;
+    color:white;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+}
+
+button{
+    height:65px;
+    border:none;
+    border-radius:15px;
+    font-size:22px;
+    cursor:pointer;
+    background:#1e293b;
+    color:white;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-4px);
+    background:#334155;
+}
+
+button:active{
+    transform:scale(.95);
+}
+
+.operator{
+    background:#2563eb;
+}
+
+.operator:hover{
+    background:#1d4ed8;
+}
+
+.equal{
+    background:#16a34a;
+}
+
+.equal:hover{
+    background:#15803d;
+}
+
+.zero{
+    grid-column:span 2;
+}
+
+@media(max-width:450px){
+
+.calculator{
+    width:95%;
+    padding:18px;
+}
+
+button{
+    height:60px;
+    font-size:20px;
+}
+
+#display{
+    height:70px;
+    font-size:28px;
+}
+
+}
