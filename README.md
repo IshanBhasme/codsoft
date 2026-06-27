@@ -1,45 +1,73 @@
 # CODSOFT Web Development Internship
 
-This repository contains the tasks completed as part of my **CodSoft Web Development Internship**.
+This repository contains the projects completed as part of my **CODSOFT Web Development Internship**.
 
-## Tasks
+## 🚀 Level 1 Tasks
 
-### Level 1
+### ✅ Task 1 – Portfolio Website
 
-### Task 1 - Portfolio Website
-- Personal Portfolio Website
-- Built using HTML, CSS and JavaScript
-- Responsive design
-- Modern UI
+* Responsive Personal Portfolio
+* Built using HTML, CSS, and JavaScript
+* Modern and user-friendly interface
 
-## Technologies Used
+**Live Demo:**
+https://portfolio1-lemon-alpha.vercel.app/
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
+---
 
-## Folder Structure
+### ✅ Task 2 – Landing Page
 
-```
+* Modern AI Product Landing Page
+* Responsive design
+* Attractive UI with smooth animations
+
+**Live Demo:**
+https://landing-page-iota-ten-57.vercel.app/
+
+---
+
+### ✅ Task 3 – Calculator
+
+* Responsive Calculator
+* Supports basic arithmetic operations
+* Clean and modern interface
+
+**Live Demo:**
+https://calculator-alpha-gold-95.vercel.app/
+
+---
+
+## 🛠 Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+
+---
+
+## 📁 Repository Structure
+
+```text
 CODSOFT/
-│── Portfolio/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   ├── images/
-│   └── assets/
+│── portfolio/
+│── landing-page/
+│── calculator/
+└── README.md
 ```
 
-## Author
-##Demo:https://portfolio1-lemon-alpha.vercel.app/
-##demo cal:https://calculator-alpha-gold-95.vercel.app/
-##demo landingpage:https://landing-page-iota-ten-57.vercel.app/
+---
 
+## 👨‍💻 Author
 
 **Ishan Bhasme**
 
-GitHub: https://github.com/IshanBhasme
+* GitHub: https://github.com/IshanBhasme
+* LinkedIn: https://linkedin.com/in/ishan-bhasme
 
-LinkedIn: https://linkedin.com/in/ishan-bhasme
+---
+
+## ⭐ Thank You
+
+Thank you to **CODSOFT** for providing this internship opportunity and helping me improve my web development skills.
